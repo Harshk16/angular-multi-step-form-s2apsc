@@ -1,0 +1,8 @@
+/* Add application styles & imports to this file! */
+.hidden {
+  display: none
+}
+.form-wrapper {
+  max-width: 300px;
+  padding: 20px 20px 20px 20px
+}

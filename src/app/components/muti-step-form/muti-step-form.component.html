@@ -1,0 +1,7 @@
+<br>
+<br>
+
+<app-step-form-selector></app-step-form-selector>
+<div *ngIf="!!currentView">
+  <ng-content *ngTemplateOutlet="currentView; context: {$implicit: formData[step], nextStepHandle: nextStepHandle, backStepHandle: backStepHandle}"></ng-content>
+</div>
